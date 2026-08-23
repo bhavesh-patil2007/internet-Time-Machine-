@@ -22,3 +22,36 @@ Inspired by the Wayback Machine's Memento protocol, built as a scaled-down, open
 | Frontend | React |
 
 ## Project Structure
+internet-time-machine/
+├── crawler/ # Playwright-based crawler + change detection
+├── webapp/
+│ ├── api/ # FastAPI backend
+│ └── frontend/ # React frontend
+├── pywb-data/ # WARC storage + pywb collection
+└── docs/ # Project synopsis, literature review, paper drafts
+
+## How to Run Locally
+
+### Crawler
+cd crawler
+pip install -r requirements.txt
+playwright install
+python crawl.py
+
+### API
+cd webapp/api
+pip install -r requirements.txt
+uvicorn main:app --reload
+
+### Frontend
+cd webapp/frontend
+npm install
+npm run dev
+
+## Status
+
+🚧 In active development
+
+## License
+
+MIT
