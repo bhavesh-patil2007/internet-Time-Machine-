@@ -1,1 +1,6 @@
-#Stores the last saved hash for each URL
+{
+  "https://example.com": "083faca61746b0338e9129ad1aef95422a1cd92f7ab3a2ee27c184b3feabec7d",
+  "https://news.ycombinator.com": "9ec8713a6dce7ae8f681a81fffc476ee1a99e5aab59196e3514c32dedf48000a",
+  "https://quotes.toscrape.com/js/": "0fb0c6d06bf5f128b1a75c603059190d3418150965c72413ede333ac5c06dcf6"
+}
+
