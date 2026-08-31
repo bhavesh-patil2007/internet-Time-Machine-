@@ -1,2 +1,5 @@
-
-[]
+[
+  "https://example.com",
+  "https://quotes.toscrape.com/js/",
+  "https://news.ycombinator.com"
+]
